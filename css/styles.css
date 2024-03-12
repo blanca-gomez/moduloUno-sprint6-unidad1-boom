@@ -2,7 +2,12 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: #f0f0f0;
   margin: 0;
-  padding: 0;
+  padding-top: 80px;
+  text-align: center;
+}
+
+p{
+  margin-top:30px;
 }
 
 h1 {
@@ -14,4 +19,28 @@ h1 {
 
 #result .red {
   color: #e74c3c;
+}
+
+#countdown{
+  color:red;
+  margin-top: 15px;
+}
+
+#result{
+  color:green;
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+
+#restart{
+  margin-top: 20px;
+  background-color: #3CA9F3;
+  color: white;
+  height: 30px;
+  border: none;
+  font-weight: bold;
+}
+
+img{
+  width: 30px;
 }
